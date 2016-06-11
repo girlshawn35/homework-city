@@ -36,6 +36,8 @@
 	// 	$(this).prev("input").val("")
 	// }
 	//})
+
+
 var cities = ["NYC", "LA", "SF", "ATX", "SYD"];
 
 cities.forEach(function(item, index){
@@ -44,7 +46,28 @@ cities.forEach(function(item, index){
 })
 $("form").change(function(){
 	console.log( $(this));
+// }
+if (city = [0]) {
+	$("body").attr("class", "nyc");
+}
+
+if (city = [1]) {
+	$("body").attr("class", "la");
+}
+if (city = [2]) {
+	$("body").attr("class", "sf");
+}
+if (city = [3]) {
+	$("body").attr("class", "austin");
+}
+if (city = [4]) {
+	$("body").attr("class", "sydney");
+}
 })
+
+
+
+
 
 
 
